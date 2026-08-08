@@ -2104,8 +2104,8 @@
 <configuration name="gnu-debug" description="Factored debug settings." hidden="true">
       <property name="cacheVariables" type="object">
         <property name="CMAKE_BUILD_TYPE" value="Debug" />
-        <property name="CMAKE_C_FLAGS" value="$env{CMAKE_C_FLAGS} -Og -g --coverage -fprofile-update=atomic" />
-        <property name="CMAKE_CXX_FLAGS" value="$env{CMAKE_CXX_FLAGS} -Og -g --coverage -fprofile-update=atomic" />
+        <property name="CMAKE_C_FLAGS" value="$env{CMAKE_C_FLAGS} -Og -g1 --coverage -fprofile-update=atomic" />
+        <property name="CMAKE_CXX_FLAGS" value="$env{CMAKE_CXX_FLAGS} -Og -g1 --coverage -fprofile-update=atomic" />
       </property>
     </configuration>
     <configuration name="gnu-release" description="Factored release settings." hidden="true">
