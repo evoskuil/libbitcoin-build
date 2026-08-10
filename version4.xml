@@ -2062,6 +2062,7 @@
         <flag value="-w" />
         <option value="--disable-tests" />
         <option value="--enable-experimental" />
+        <option value="--enable-module-ellswift" />
         <option value="--enable-module-recovery" />
         <option value="--enable-module-schnorrsig" />
       </build>
@@ -2069,6 +2070,7 @@
         <flag value="-w" />
         <option value="-DSECP256K1_BUILD_TESTS=OFF" />
         <option value="-DSECP256K1_EXPERIMENTAL=ON" />
+        <option value="-DSECP256K1_ENABLE_MODULE_ELLSWIFT=ON" />
         <option value="-DSECP256K1_ENABLE_MODULE_RECOVERY=ON" />
         <option value="-DSECP256K1_ENABLE_MODULE_SCHNORRSIG=ON" />
       </build>
